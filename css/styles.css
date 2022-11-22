@@ -69,6 +69,3 @@ nav a::before {
 nav a:hover::before {
     width: 100%;
 }
-
-RewriteRule ^(.*).html$ /$1 [L,R=301]
-
