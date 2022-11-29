@@ -30,3 +30,20 @@ h2 {
 p {
     text-align: center;
 }
+
+.fotobreed {
+    width: 100%;
+    height: auto;
+}
+
+.fotobox {
+    float: left; 
+    width: 29%;
+    padding-left: 2%;
+    padding-right: 2%;
+}
+
+.teamfoto {
+    width: 100%;
+    height: auto;
+}

@@ -93,6 +93,11 @@ form {
     padding-right: 2%;
 }
 
+.twel {
+    float: left;
+    width: 29%;
+    margin-left: 35%;
+}
 .teamfoto {
     width: 100%;
     height: auto;
