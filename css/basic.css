@@ -1,0 +1,44 @@
+body {
+    margin: 0;
+    background: rgba(34, 34, 34, 0.07);
+    font-family: 'Work Sans', sans-serif;
+    font-weight: 300;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+h1 {
+    text-align: center;
+}
+p {
+    text-align: center;
+}
+
+form {
+    text-align: center;
+}
+
+.fotobreed {
+    width: 100%;
+    height: auto;
+}
+
+.fotobox {
+    float: left; 
+    width: 29%;
+    padding-left: 2%;
+    padding-right: 2%;
+}
+
+.twel {
+    float: left;
+    width: 29%;
+    margin-left: 35%;
+}
+.teamfoto {
+    width: 100%;
+    height: auto;
+}
