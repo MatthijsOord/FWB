@@ -10,66 +10,6 @@ body {
     margin: 0 auto;
 }
 
-header {
-    background: #22234e36;
-}
-
-header::after {
-    content: '';
-    display: table;
-    clear: both;
-}
-
-.logo {
-    float: left;
-    padding: 15px 0;
-}
-
-nav {
-    float: right;
-}
-
-nav ul {
-    margin: 0;
-    padding: 0;
-    list-style: none;
-}
-
-nav li {
-    display: inline-block;
-    margin-left: 70px;
-    padding-top: 60px;
-
-    position: relative;
-}
-
-nav a {
-    color: #444;
-    text-decoration: none;
-    text-transform: uppercase;
-    font-size: ;   
-}
-
-nav a:hover {
-    color: black;
-}
-nav a::before {
-    content: '';
-    display: block;
-    height: 5px;
-    background-color: #444;
-
-    position: absolute;
-    bottom: -5px;
-    width: 0%;
-
-    transition: all ease-in-out 250ms;
-}
-
-nav a:hover::before {
-    width: 100%;
-}
-
 h1 {
     text-align: center;
 }
