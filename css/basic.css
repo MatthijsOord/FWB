@@ -13,6 +13,9 @@ body {
 h1 {
     text-align: center;
 }
+h2 {
+    text-align: center;
+}
 p {
     text-align: center;
 }
@@ -41,4 +44,20 @@ form {
 .teamfoto {
     width: 100%;
     height: auto;
+}
+
+.video{
+    width: 90vw;
+    height: calc(90vw/1.77777778);
+    margin-left: 0vw;
+
+    margin-bottom: 0vw;
+   }
+
+.achtergrond {
+    background-image: url('/assets/Voorpagina.png');
+    background-repeat: no-repeat;
+    background-attachment: fixed;  
+    background-size: cover;
+    background-position: center center;
 }
