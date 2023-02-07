@@ -1,42 +1,46 @@
-.flexbox-container {
+/* flexboxes voor de about pagina */
+
+.about-flexbox-container {
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
     flex-wrap: wrap;
 }
 
-.flexbox-item{
-    width: 350px;
-    margin-left: 50px;
-    margin-right: 50px;
-
+.about-flexbox-item{
+    width: 430px;
+    margin-left: 15px;
+    margin-right: 15px;
+    /*
+    border: 3px solid #333;
+    background-color: #dfdfdf;*/
 }
 
-.flexbox-text{
+.about-flexbox-text{
     flex: 2 1 auto;
 
 }
 
-.flexbox-item-1{
+.about-flexbox-item-1{
     min-height: 100px;
 }
 
-.flexbox-item-2{
+.about-flexbox-item-2{
     min-height: 200px;
     min-width: 80%;
 }
 
-.flexbox-item-3{
+.about-flexbox-item-3{
     min-height: 300px;
 }
 
-.space-tile{
+.about-space-tile{
     --paddingwaarde: 0%;
     padding-top: 0%;
     padding-right: var(--paddingwaarde);
     padding-left: var(--paddingwaarde);
 }
 
-.section-gray{
+.about-section-gray{
     --marginside: 10%;
     --margintopbottom: 2%;
     background-color: #333333a3;
@@ -47,9 +51,69 @@
     margin-bottom: var(--margintopbottom);
 }
 
-.page-background{
+.about-page-background{
     background-image: url("/assets/gitaren.jpg");
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
+    background-position: 10%;
+}
+
+/* flexboxes voor de voorpagina */
+
+.main-flexbox-container {
+    
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 250px;
+    margin-bottom: 42px;
+    /*  */
+}
+
+.main-flexbox-item{
+    width: 300px;
+    margin-left: 15px;
+    margin-right: 15px;
+
+
+    /* border: 3px solid #333;
+    background-color: #dfdfdf;*/
+}
+
+.main-flexbox-item-1{
+    min-height: 83px;
+    align-items: center;
+    flex-grow: 0.2;
+    
+}
+
+.main-space-tile{
+    --paddingwaarde: 0%;
+    padding-top: 0%;
+    padding-right: var(--paddingwaarde);
+    padding-left: var(--paddingwaarde);
+}
+
+.main-page-background{
+    background-image: url("/assets/gitaren.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: 10%;
+}
+
+/* flexboxes voor de concactpagina */
+
+.contact-background{
+    background-color: rgb(58, 123, 202);
+    width: 100%;
+    height: 100%;
+    display: block;
+}
+
+#check {display: none;}
+@media(max-width: 237px){
+
+    
 }

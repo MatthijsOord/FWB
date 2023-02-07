@@ -5,6 +5,13 @@ body {
     font-weight: 300;
 }
 
+.tekstmidden{
+    text-align: center;
+}
+
+.footerclass{
+    margin-top: 10%;
+}
 .container {
     width: 80%;
     margin: 0 auto;
@@ -44,13 +51,15 @@ form {
 .teamfoto {
     width: 100%;
     height: auto;
+    border-radius: 1%;
+    box-shadow: 0 7px 14px 0 rgb(0 0 0 / 42%);
 }
 
 .video{
-    width: 90vw;
-    height: calc(90vw/1.77777778);
+    --videowidth: 40vw;
+    width: var(--videowidth);
+    height: calc(var(--videowidth)/1.77777778);
     margin-left: 0vw;
-
     margin-bottom: 0vw;
    }
 

@@ -47,3 +47,8 @@ p {
     width: 100%;
     height: auto;
 }
+
+.team-container{
+    padding: 5%;
+    background-color: #33333372;
+}
