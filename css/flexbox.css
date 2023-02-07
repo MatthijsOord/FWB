@@ -1,0 +1,55 @@
+.flexbox-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.flexbox-item{
+    width: 350px;
+    margin-left: 50px;
+    margin-right: 50px;
+
+}
+
+.flexbox-text{
+    flex: 2 1 auto;
+
+}
+
+.flexbox-item-1{
+    min-height: 100px;
+}
+
+.flexbox-item-2{
+    min-height: 200px;
+    min-width: 80%;
+}
+
+.flexbox-item-3{
+    min-height: 300px;
+}
+
+.space-tile{
+    --paddingwaarde: 0%;
+    padding-top: 0%;
+    padding-right: var(--paddingwaarde);
+    padding-left: var(--paddingwaarde);
+}
+
+.section-gray{
+    --marginside: 10%;
+    --margintopbottom: 2%;
+    background-color: #333333a3;
+    color: white;
+    margin-left: var(--marginside);
+    margin-right: var(--marginside);
+    margin-top: var(--margintopbottom);
+    margin-bottom: var(--margintopbottom);
+}
+
+.page-background{
+    background-image: url("/assets/gitaren.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
