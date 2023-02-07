@@ -8,6 +8,7 @@
     background-attachment: fixed;
     background-position: 10%;
 }
+/*
 #check {display: none;}
 @media(max-width: 1000px){
     .vboven{
@@ -19,7 +20,7 @@
         background-position: 10%;
     }
 }
-/*
+
 #check {display: none;}
 @media(max-width: 989px){
     .vboven{
