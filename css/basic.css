@@ -1,0 +1,73 @@
+body {
+    margin: 0;
+    background: rgba(34, 34, 34, 0.07);
+    font-family: 'Work Sans', sans-serif;
+    font-weight: 300;
+}
+
+.tekstmidden{
+    text-align: center;
+}
+
+.footerclass{
+    margin-top: 10%;
+}
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+h1 {
+    text-align: center;
+}
+h2 {
+    text-align: center;
+}
+p {
+    text-align: center;
+}
+
+form {
+    text-align: center;
+}
+
+.fotobreed {
+    width: 100%;
+    height: auto;
+}
+
+.fotobox {
+    float: left; 
+    width: 29%;
+    padding-left: 2%;
+    padding-right: 2%;
+}
+
+.twel {
+    float: left;
+    width: 29%;
+    margin-left: 35%;
+}
+.teamfoto {
+    width: 100%;
+    height: auto;
+    margin-block: 10px;
+    border-radius: 1%;
+    box-shadow: 0 7px 14px 0 rgb(0 0 0 / 42%);
+}
+
+.video{
+    --videowidth: 40vw;
+    width: var(--videowidth);
+    height: calc(var(--videowidth)/1.77777778);
+    margin-left: 0vw;
+    margin-bottom: 0vw;
+   }
+
+.achtergrond {
+    background-image: url('/assets/Voorpagina.png');
+    background-repeat: no-repeat;
+    background-attachment: fixed;  
+    background-size: cover;
+    background-position: center center;
+}

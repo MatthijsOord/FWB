@@ -1,0 +1,100 @@
+.vboven{
+
+    width: 100%;
+    height: 52.55rem;
+}
+
+.body-background{
+    background-image: url("/assets/voorpagina.jpg");
+    background-size: cover;
+    background-repeat: repeat;
+    background-attachment: fixed;
+    background-position: 50% 50%;
+
+}
+/*
+#check {display: none;}
+@media(max-width: 989px){
+    .vboven{
+
+        width: 100%;
+        height: 70rem;
+        background-image: url("/assets/voorpagina2.jpg");
+        background-size: cover;
+        background-position: 40%;
+    }
+
+    
+}
+*/
+
+.centerdiv{
+    text-align: center;
+    padding-top: 5px;
+}
+
+.buttonbox{
+    margin: auto;
+    width: 190px;
+    height: 63px;
+    border-radius: 300px;
+    transition: 100ms;
+
+
+    background-color: #f05001;
+
+    /* border: 3px solid #333; */
+}
+
+.buttonbox:hover{
+    border-radius: 315px;
+    width: 199.5px;
+    height: 66.15px;
+}
+
+.buttonbox:hover .link{
+    --margin: 10%;
+    margin-top: var(--margin);
+    margin-bottom: var(--margin);
+    text-decoration: underline;
+    font-size: large;
+    
+}
+
+.link{
+    --margin: 10.5%;
+    color: white;
+    display: block;
+    height: 100%;
+    width: 100%;
+    margin-top: var(--margin);
+    margin-bottom: var(--margin);
+    text-decoration: none;
+    text-transform: uppercase;
+    justify-content: center;
+    transition: 100ms ;
+}
+
+.box-split{
+    width: 49%;
+    height: 500px;
+    border: 3px solid #333;
+    background-color: #dfdfdf9f;
+    float: left;
+    margin-left: 0.5%;
+}
+
+#check {display: none;}
+@media (max-width: 768px){
+    .buttonbox{ 
+        margin: auto;
+        width: 285px; /*waardes keer 1.5*/
+        height: 94.5px;
+        border-radius: 450px;
+    }
+    .buttonbox:hover{
+        width: 299.25px;
+        height: 99.225px;
+        border-radius: 472.5px; /*waardes keer 1.05*/
+    }
+}
