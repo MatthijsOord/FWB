@@ -84,3 +84,17 @@
     margin-left: 0.5%;
 }
 
+#check {display: none;}
+@media (max-width: 768px){
+    .buttonbox{ 
+        margin: auto;
+        width: 285px; /*waardes keer 1.5*/
+        height: 94.5px;
+        border-radius: 450px;
+    }
+    .buttonbox:hover{
+        width: 299.25px;
+        height: 99.225px;
+        border-radius: 472.5px; /*waardes keer 1.05*/
+    }
+}
