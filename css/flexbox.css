@@ -121,11 +121,53 @@
 /* flexboxes voor de concactpagina */
 
 .contact-background{
-    background-color: rgb(58, 123, 202);
+    background-image: url("/assets/contac.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: 60%;
+    
+    /*background-color: rgb(58, 123, 202);
     width: 100%;
     height: 100%;
-    display: block;
+    display: block;*/
 }
+
+.contact-flexbox-container-1 {
+    
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 20px;
+    margin-bottom: 42px;
+    
+    /* border: 3px solid #960000;
+    background-color: #f5c8c8; */
+}
+
+.contact-flexbox-item{
+    width: 400px;
+    margin-left: 15px;
+    margin-right: 15px;
+    /* border: 3px solid #333;
+    background-color: #dfdfdf;*/
+}
+
+.contact-flexbox-item-1{
+    min-height: 83px;
+    align-items: center;
+    
+}
+
+.contact-page-background{
+    background-image: url("/assets/gitaren.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: 10%;
+}
+
+/* flexbox voor telefoon */
 
 #check {display: none;}
 @media(max-width: 768px) {
@@ -148,7 +190,7 @@
         padding-bottom: 20px;
     }
     .main-flexbox-container-2 {
-        margin-top: 60px;
+        margin-top: 0px;
     }
     .about-page-background{
         background-image: url("/assets/marbar.jpg");
