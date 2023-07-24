@@ -179,3 +179,12 @@ form {
     box-shadow:0 0 50px #673ab7;
     
   }
+
+  .loading-text{
+    color: white; 
+    z-index: 9999; 
+    position: fixed; 
+    top: 40vh; 
+    font-size: larger; 
+    font-weight: bold;
+  }
