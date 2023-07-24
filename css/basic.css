@@ -188,3 +188,9 @@ form {
     font-size: larger; 
     font-weight: bold;
   }
+
+#check {display: none;}
+@media(max-width: 768px) {
+    .loading-text{
+        top: 30vh;
+    }
