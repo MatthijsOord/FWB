@@ -13,7 +13,25 @@
     </head>
 
 <body>
-    
+    <div class="loading-screen">
+        <ul>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+          </ul>
+      </div>
+
+    <script>
+    window.addEventListener("load", function () {
+        // When the page has fully loaded, hide the loading screen with dissolve animation
+        const loadingScreen = document.querySelector(".loading-screen");
+        loadingScreen.classList.add("hidden"); // Add the 'hidden' class to trigger the dissolve animation
+  });
+    </script>
     <header>
         <nav>
             <ul class='nav-bar'>
