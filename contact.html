@@ -13,14 +13,32 @@
     </head>
 
 <body>
+    <div class="loading-screen">
+        <ul>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+          </ul>
+      </div>
 
+    <script>
+    window.addEventListener("load", function () {
+        // When the page has fully loaded, hide the loading screen with dissolve animation
+        const loadingScreen = document.querySelector(".loading-screen");
+        loadingScreen.classList.add("hidden"); // Add the 'hidden' class to trigger the dissolve animation
+  });
+    </script>
     <header>
         <nav>
             <ul class='nav-bar'>
                 <li class='logo'><a href='home'><img src='assets/logo.png'/></a></li>
                 <input type='checkbox' id='check' />
                 <span class="menu">
-                    <li><a href="/home">Home</a></li>
+                    <li><a href="/">Home</a></li>
                     <li><a href="/about">About</a></li>
                     <li><a href="https://docs.google.com/spreadsheets/d/1owiVtKLsjDt-LiFdrPoOlDxRbqNchzc2lh9CV4a_pK4/edit?usp=sharing" target="_blank">Repertoire</a></li>
                     <li><a href="/contact">Contact</a></li>
