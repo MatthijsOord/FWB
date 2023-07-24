@@ -167,6 +167,13 @@
     background-position: 10%;
 }
 
+
+#check {display: none;}
+@media(max-width: 1463px) {
+    .about-flexbox-item{
+        width: 260px;
+    }
+}
 /* flexbox voor telefoon */
 
 #check {display: none;}
