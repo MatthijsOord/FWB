@@ -198,3 +198,8 @@ form {
     .loading-text{
         top: 35vh;
     }
+
+  .loading-lock{
+    overflow-y: hidden;
+    transition: 200ms;
+  }
