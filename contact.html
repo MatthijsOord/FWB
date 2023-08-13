@@ -27,11 +27,14 @@
       </div>
 
     <script>
-    window.addEventListener("load", function () {
-        // When the page has fully loaded, hide the loading screen with dissolve animation
-        const loadingScreen = document.querySelector(".loading-screen");
-        loadingScreen.classList.add("hidden"); // Add the 'hidden' class to trigger the dissolve animation
-  });
+        window.addEventListener("load", function () {
+            // When the page has fully loaded, hide the loading screen with dissolve animation
+            const loadingScreen = document.querySelector(".loading-screen");
+            loadingScreen.classList.add("hidden"); // Add the 'hidden' class to trigger the dissolve animation
+
+            const scrolllock = document.querySelector(".loading-lock");
+            scrolllock.classList.remove("loading-lock"); // Add the 'hidden' class to trigger the dissolve animation
+        });
     </script>
     <header>
         <nav>
