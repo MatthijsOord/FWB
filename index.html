@@ -12,6 +12,7 @@
         <link rel="stylesheet" href="css/flexbox.css">
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css" integrity="sha512-YWzhKL2whUzgiheMoBFwW8CKV4qpHQAEuvilg9FAn5VJUDwKZZxkJNuGM4XkWuk94WCrrwslk8yWNGmY1EduTA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
         <link href="https://fonts.googleapis.com/css?family=Work+Sans:400">
+        <link rel="icon" href="assets\siteIcon.ico" type="image/x-icon"/>
     </head>
 
 <body class="body-background loading-lock">
@@ -30,12 +31,15 @@
 
     <script>
         window.addEventListener("load", function () {
-            // When the page has fully loaded, hide the loading screen with dissolve animation
-            const loadingScreen = document.querySelector(".loading-screen");
-            loadingScreen.classList.add("hidden"); // Add the 'hidden' class to trigger the dissolve animation
+            // Delay hiding the loading screen for 1.5 seconds
+            setTimeout(function() {
+                // When the delay is over, hide the loading screen with dissolve animation
+                const loadingScreen = document.querySelector(".loading-screen");
+                loadingScreen.classList.add("hidden"); // Add the 'hidden' class to trigger the dissolve animation
 
-            const scrolllock = document.querySelector(".loading-lock");
-            scrolllock.classList.remove("loading-lock"); // Add the 'hidden' class to trigger the dissolve animation
+                const scrolllock = document.querySelector(".loading-lock");
+                scrolllock.classList.remove("loading-lock"); // Add the 'hidden' class to trigger the dissolve animation
+            }, 1000);
         });
     </script>
     <header>
