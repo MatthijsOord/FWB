@@ -27,7 +27,10 @@
     
 }
 */
-
+.Rubik{
+    font-family: Rubik, cursive;
+    font-weight: bold;
+}
 .centerdiv{
     text-align: center;
     /*padding-top: 5px;*/
@@ -72,6 +75,8 @@
     font-size: large;*/
     scale: 1.1
 }
+
+
 
 .link{
     color: white;

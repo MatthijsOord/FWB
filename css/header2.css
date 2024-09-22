@@ -6,7 +6,7 @@
 body {
     font-family: "Poppins", sans-serif;
     --color1: #FFF ;
-    --color2: #181818 ;
+    --color2: #181818fb ;
 }
 .nav-bar {
     width: 100%;
@@ -29,6 +29,12 @@ body {
     transition: 0.15s ease-in-out;
     position: relative;
     text-transform: uppercase;
+}
+
+.selected{
+    display: inline-block;
+    text-decoration: none;
+    color: var(--color1);
 }
 .menu li a::after {
     content: "";
@@ -76,4 +82,22 @@ body {
     .menu li a {padding: 10px;}
     .open-menu , .close-menu {display: block;}
     #check:checked ~ .menu {right: 0;}
+}
+
+.font{
+    font-family: "Archivo Black", sans-serif;
+    font-weight: bold;
+    font-size: large;
+    user-select: none;
+}
+
+.bodyfont{
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.bodyfont p{
+    font-size: 18px;
+    line-height: 1.6em;
 }
