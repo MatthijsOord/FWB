@@ -10,12 +10,22 @@
         <link rel="stylesheet" href="css/basic.css">
         <link rel="stylesheet" href="css/voorpagina.css">
         <link rel="stylesheet" href="css/flexbox.css">
+        <link rel="stylesheet" href="css/style.css">
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css" integrity="sha512-YWzhKL2whUzgiheMoBFwW8CKV4qpHQAEuvilg9FAn5VJUDwKZZxkJNuGM4XkWuk94WCrrwslk8yWNGmY1EduTA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
         <link href="https://fonts.googleapis.com/css?family=Work+Sans:400">
         <link rel="icon" href="assets\siteIcon.ico" type="image/x-icon"/>
     </head>
 
-<body class="body-background loading-lock">
+<body class="loading-lock">
+    <div id="background-div">
+        <!-- The video element hidden by default, with autoplay muted so there's no interaction -->
+        <div id="background-image"></div>
+        <video id="background-video" muted autoplay loop playsinline>
+            <source src="assets\Background.mp4" type="video/mp4">
+            <!-- Provide a fallback message -->
+            Your browser does not support the video tag.
+        </video>
+   <!--
     <div class="loading-screen">
         <div class="loading-text">Loading</div>
         <ul>
@@ -41,7 +51,7 @@
                 scrolllock.classList.remove("loading-lock"); // Add the 'hidden' class to trigger the dissolve animation
             }, 1000);
         });
-    </script>
+    </script>-->
     <header>
         <nav>
             <ul class='nav-bar'>
@@ -126,7 +136,7 @@
     -->
 
 
-
-
+</div>
+    <script src="script.js"></script>
 </body>
 </html>

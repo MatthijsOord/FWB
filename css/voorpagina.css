@@ -50,6 +50,7 @@
     text-align: center;
 
 
+
     background-color: #f05001;
 
     /* border: 3px solid #333; */
@@ -59,7 +60,8 @@
     /*border-radius: 315px;
     width: 199.5px;
     height: 66.15px;*/
-    scale: 1.1
+    scale: 1.1;
+    opacity: 0.9;
 }
 
 .buttonbox:hover .link{
@@ -98,14 +100,14 @@
     .buttonbox{ 
         margin: auto;
         width: 285px; /*waardes keer 1.5*/
-        height: 94.5px;
+        height: 70px;
         border-radius: 450px;
     }
     .buttonbox:hover{
         scale: 1.05 /*waardes keer 1.05*/
     }
     .verticalCenter{
-        height: 94.5px;
+        height: 70px;
         display: flex;
         align-items: center;
         justify-content: center;
