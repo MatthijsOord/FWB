@@ -6,7 +6,7 @@ document.addEventListener("DOMContentLoaded", function() {
         // Add a 1-second delay before fading in the video
         setTimeout(function() {
             backgroundVideo.style.opacity = 1;
-        }, 1000); // 1000 milliseconds = 1 second
+        }, 3000); // 1000 milliseconds = 1 second
     });
 
     // Optionally, handle error cases
