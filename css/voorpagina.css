@@ -30,7 +30,14 @@
 
 .centerdiv{
     text-align: center;
-    padding-top: 5px;
+    /*padding-top: 5px;*/
+}
+
+.verticalCenter{
+    height: 63px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .buttonbox{
@@ -39,6 +46,8 @@
     height: 63px;
     border-radius: 300px;
     transition: 100ms;
+    display: table;
+    text-align: center;
 
 
     background-color: #f05001;
@@ -47,22 +56,22 @@
 }
 
 .buttonbox:hover{
-    border-radius: 315px;
+    /*border-radius: 315px;
     width: 199.5px;
-    height: 66.15px;
+    height: 66.15px;*/
+    scale: 1.1
 }
 
 .buttonbox:hover .link{
-    --margin: 10%;
+    /*--margin: 10%;
     margin-top: var(--margin);
     margin-bottom: var(--margin);
     text-decoration: underline;
-    font-size: large;
-    
+    font-size: large;*/
+    scale: 1.1
 }
 
 .link{
-    --margin: 10.5%;
     color: white;
     display: block;
     height: 100%;
@@ -93,8 +102,12 @@
         border-radius: 450px;
     }
     .buttonbox:hover{
-        width: 299.25px;
-        height: 99.225px;
-        border-radius: 472.5px; /*waardes keer 1.05*/
+        scale: 1.05 /*waardes keer 1.05*/
+    }
+    .verticalCenter{
+        height: 94.5px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
     }
 }

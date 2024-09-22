@@ -2,7 +2,7 @@
 
 .about-flexbox-container {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-evenly;
     flex-wrap: wrap;
 }
 
@@ -195,6 +195,9 @@
         min-height: 100px;
         align-items: center;
         padding-bottom: 20px;
+    }
+    .main-flexbox-item-2{
+        min-height: 10px;   
     }
     .main-flexbox-container-2 {
         margin-top: 0px;
