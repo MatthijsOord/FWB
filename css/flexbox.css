@@ -84,6 +84,17 @@
     /*  */
 }
 
+.main-flexbox-container-3 {
+    
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 20px;
+    margin-bottom: 42px;
+    
+    /*  */
+}
+
 .main-flexbox-item{
     width: 300px;
     margin-left: 15px;
@@ -200,6 +211,10 @@
         min-height: 10px;   
     }
     .main-flexbox-container-2 {
+        margin-top: 0px;
+    }
+
+    .main-flexbox-container-3 {
         margin-top: 0px;
     }
     .about-page-background{
