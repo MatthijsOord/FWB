@@ -91,6 +91,10 @@
     transition: 100ms ;
 }
 
+.scrolllock{
+    overflow-y: hidden
+}
+
 .box-split{
     width: 49%;
     height: 500px;
