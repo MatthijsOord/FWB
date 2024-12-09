@@ -80,6 +80,7 @@
     justify-content: center;
     flex-wrap: wrap;
     margin-top: 230px;
+    
 
     /*  */
 }
@@ -90,7 +91,7 @@
     justify-content: center;
     flex-wrap: wrap;
     margin-top: 20px;
-    margin-bottom: 42px;
+    margin-bottom: 0px;
     
     /*  */
 }
@@ -112,6 +113,7 @@
 .main-flexbox-item-2{
     min-height: 83px;
     align-items: center;
+    width: 650px;
 }
 
 .main-space-tile{

@@ -19,6 +19,8 @@
     transition: opacity 1s ease-in; /* Smooth fade-in effect for the video */
 }
 
+
+
 #background-image {
     background: url('/assets/voorpagina.jpg') no-repeat center center/cover; /* Fallback background */
     overflow: hidden;
@@ -33,4 +35,9 @@
     transition: opacity 1.5s ease-in-out; /* Smooth fade-in effect for the video */
 }
 
-
+#check {display: none;}
+@media(max-width: 768px){
+    #background-div{
+        height: 100%;
+    }
+}

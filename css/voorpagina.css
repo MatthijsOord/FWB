@@ -76,8 +76,6 @@
     scale: 1.1
 }
 
-
-
 .link{
     color: white;
     display: block;
@@ -86,13 +84,30 @@
     margin-top: var(--margin);
     margin-bottom: var(--margin);
     text-decoration: none;
-    text-transform: uppercase;
     justify-content: center;
     transition: 100ms ;
 }
 
+.update{
+    text-shadow:
+        0.07em 0 #00000041,
+        0 0.07em #00000041,
+        -0.07em 0 #00000041,
+        0 -0.07em #00000041;
+    
+    font-size: medium;
+}
+
+.upper{
+    text-transform: uppercase;
+}
+
+.update :hover{
+    opacity: 80%;
+}
+
 .scrolllock{
-    overflow-y: hidden
+    overflow-x: hidden
 }
 
 .box-split{
