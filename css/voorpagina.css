@@ -104,6 +104,8 @@
 
 .update :hover{
     opacity: 80%;
+    scale: 1.03;
+    transition-duration: 50ms;
 }
 
 .scrolllock{
