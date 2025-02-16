@@ -6,6 +6,6 @@ if (isMobile()) {
     document.querySelector(".shows-page-background").style.position = "absolute"; // Override fixed
 
     document.addEventListener("scroll", function () {
-        document.querySelector(".shows-page-background").style.transform = `translateY(${window.scrollY}px)`;
+        document.querySelector(".shows-page-background", ".about-page-background").style.transform = `translateY(${window.scrollY}px)`;
     });
 }
