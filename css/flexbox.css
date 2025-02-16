@@ -270,12 +270,15 @@
         width: 600px;
     }
     .main-flexbox-item-1{
-        min-height: 50px;
+        min-height: 0px;
         align-items: center;
-        padding-bottom: 25px;
+        padding-bottom: 22.5px;
     }
     .main-flexbox-item-2{
         min-height: 10px;   
+    }
+    .main-flexbox-container-1 {
+        margin-bottom: 0px;
     }
     .main-flexbox-container-2 {
         margin-top: 0px;
