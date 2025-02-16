@@ -61,6 +61,14 @@
     background-position: 10%;
 }
 
+.shows-page-background{
+    background-image: url("/assets/gigachtergrond.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: 10%;
+}
+
 /* flexboxes voor de voorpagina */
 
 .main-flexbox-container-1 {
@@ -139,6 +147,8 @@
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-position: 60%;
+    height: 90.75%;
+
     
     /*background-color: rgb(58, 123, 202);
     width: 100%;
@@ -159,7 +169,7 @@
 }
 
 .contact-flexbox-item{
-    width: 400px;
+    width: 500px;
     margin-left: 15px;
     margin-right: 15px;
     /* border: 3px solid #333;
@@ -180,6 +190,19 @@
     background-position: 10%;
 }
 
+.ticket-flexbox-item {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    flex: 1; /* Ensures equal width for both divs */
+    min-height: 100%; /* Helps with vertical alignment */
+}
+
+.ticket-flexbox-container {
+    display: flex;
+    align-items: stretch; /* Ensures both children take up equal height */
+}
 
 #check {display: none;}
 @media(max-width: 1463px) {
