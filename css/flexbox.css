@@ -249,6 +249,12 @@
         margin-left: var(--marginside);
         margin-right: var(--marginside);
     }
+
+    .about-section-gray{
+        --marginside: 0%;
+        margin-left: var(--marginside);
+        margin-right: var(--marginside);
+    }
     
     .about-flexbox-item{
         width: 450px;
