@@ -3,6 +3,11 @@
     position: relative;
     width: 100vw;
     height: 100vh;
+    position: fixed; /* This keeps it in place */
+    top: 0;
+    left: 0;
+    
+    z-index: -1; /* Push it behind content */
 }
 
 /* The video covers the entire div but is hidden initially */
