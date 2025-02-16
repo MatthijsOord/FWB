@@ -204,6 +204,36 @@
     align-items: stretch; /* Ensures both children take up equal height */
 }
 
+.ticket-section-gray{
+    --marginside: 10%;
+    --margintopbottom: 2%;
+    background-color: #333333a3;
+    color: white;
+    margin-left: var(--marginside);
+    margin-right: var(--marginside);
+    margin-top: var(--margintopbottom);
+    margin-bottom: var(--margintopbottom);
+}
+
+.ticket-flexbox-container {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.text-space-tile{
+    --paddingwaarde: 0%;
+    padding-top: 0%;
+    padding-right: var(--paddingwaarde);
+    padding-left: var(--paddingwaarde);
+}
+
+.ticket-flexbox-item-2{
+    min-height: 200px;
+    min-width: 80%;
+    margin-top: 20px;
+}
+
 #check {display: none;}
 @media(max-width: 1463px) {
     .about-flexbox-item{
@@ -214,6 +244,12 @@
 
 #check {display: none;}
 @media(max-width: 768px) {
+    .ticket-section-gray{
+        --marginside: 0%;
+        margin-left: var(--marginside);
+        margin-right: var(--marginside);
+    }
+    
     .about-flexbox-item{
         width: 450px;
         padding-top: 20px;

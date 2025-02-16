@@ -60,11 +60,11 @@
 }
 
 .seated-event-venue-name {
-    width: 60%;
+    width: 50%;
 }
 
 .seated-event-venue-location {
-    width: 40%;
+    width: 50%;
 }
 
 .seated-event-link1, .seated-event-link1:visited, .seated-event-link2, .seated-event-link2:visited {
@@ -106,4 +106,15 @@
     -webkit-transition: background 0.2s ease-in-out;
     -o-transition: background 0.2s ease-in-out;
     transition: background 0.2s ease-in-out;
+}
+
+#check {display: none;}
+@media(max-width: 768px) {
+    .seated-event-link1:hover, .seated-event-link2:hover{
+        min-width: 20px;
+    }
+
+    .seated-event-link1, .seated-event-link1:visited, .seated-event-link2, .seated-event-link2:visited{
+        min-width: 20px;
+    }
 }
