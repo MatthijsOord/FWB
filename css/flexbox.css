@@ -51,6 +51,7 @@
     margin-right: var(--marginside);
     margin-top: var(--margintopbottom);
     margin-bottom: var(--margintopbottom);
+    border-radius: 0.5%;
 }
 
 .about-page-background {
@@ -229,6 +230,8 @@
     margin-right: var(--marginside);
     margin-top: var(--margintopbottom);
     margin-bottom: var(--margintopbottom);
+    border-radius: 0.5%;
+    
 }
 
 .ticket-flexbox-container {
