@@ -31,11 +31,6 @@ body {
     text-transform: uppercase;
 }
 
-.selected{
-    display: inline-block;
-    text-decoration: none;
-    color: var(--color1);
-}
 .menu li a::after {
     content: "";
     position: absolute;
@@ -47,6 +42,11 @@ body {
     transition: 0.15s ease-in-out;
 }
 .menu li a:hover:after {width: 100%;}
+
+.menu li a.active::after {
+    width: 100%; /* Always show underline for active link */
+}
+
 .open-menu , .close-menu {
     position: absolute;
     color: var(--color1);
