@@ -1,0 +1,128 @@
+.ss-flexbox-container {
+    top: 20px;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.ss-flexbox-item-1{
+    width: 20%;
+}
+
+.ss-flexbox-item-2{
+    width: 80%;
+}
+
+.ss-flexbox-item-3{
+    min-height: 300px;
+}
+
+.buttonbox{
+    margin: auto;
+    width: 290px;
+    height: 63px;
+    border-radius: 300px;
+    transition: 100ms;
+    display: table;
+    text-align: center;
+
+
+
+    background-color: #f05001;
+
+    /* border: 3px solid #333; */
+}
+
+.buttonbox:hover{
+    /*border-radius: 315px;
+    width: 199.5px;
+    height: 66.15px;*/
+    scale: 1.1;
+    opacity: 0.9;
+}
+
+.centerdiv{
+    text-align: center;
+    /*padding-top: 5px;*/
+}
+
+.verticalCenter{
+    height: 63px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.link{
+    color: white;
+    display: block;
+    height: 100%;
+    width: 100%;
+    margin-top: var(--margin);
+    margin-bottom: var(--margin);
+    text-decoration: none;
+    justify-content: center;
+    transition: 100ms ;
+}
+
+.ss-section-gray{
+    --marginside: 10%;
+    --margintopbottom: 2%;
+    background-color: #333333a3;
+    color: white;
+    margin-left: var(--marginside);
+    margin-right: var(--marginside);
+    margin-top: var(--margintopbottom);
+    margin-bottom: var(--margintopbottom);
+    border-radius: 0.5%;
+    cursor: default;
+}
+
+.ss-flexbox-container {
+    display: flex;
+    align-items: stretch; /* Ensures both children take up equal height */
+}
+
+.ss-flexbox-item {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    flex: 1; /* Ensures equal width for both divs */
+    min-height: 100%; /* Helps with vertical alignment */
+    scale: 0.95;
+}
+
+.ss2-flexbox-item{
+    width: 500px;
+    margin-left: 15px;
+    margin-right: 15px;
+    
+    /* border: 3px solid #333;
+    background-color: #dfdfdf;*/
+}
+
+#check {display: none;}
+@media(max-width: 1024px) {
+    .ss-flexbox-item {
+        margin-block: 20px;
+    }
+    
+    .ss2-flexbox-item{
+        order: 1;
+    }
+}
+
+#check {display: none;}
+@media(max-width: 819px) {
+    .ss-section-gray{
+        --marginside: 0%;
+        --margintopbottom: 0%;
+        margin-left: var(--marginside);
+        margin-right: var(--marginside);
+        margin-top: var(--margintopbottom);
+        margin-bottom: var(--margintopbottom);
+        
+    }
+}
+
