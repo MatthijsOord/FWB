@@ -126,3 +126,10 @@
     }
 }
 
+.widthChar{
+    max-width: 55ch;
+}
+
+.white{
+    color: white;
+}
