@@ -234,6 +234,7 @@
 .ticket-flexbox-container {
     display: flex;
     align-items: stretch; /* Ensures both children take up equal height */
+    min-height: 100vh; /* Helps with vertical alignment */
 }
 
 .ticket-section-gray{
