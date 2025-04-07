@@ -1,0 +1,42 @@
+.footer {
+    background-color: white;
+    padding: 20px;
+    text-align: center;
+    border-top: 1px solid #ddd; /* Optional: Add a subtle border at the top */
+    font-family: 'Work Sans', sans-serif; /* Match the site's font */
+    height: 150px; /* Set the footer height */
+    display: flex; /* Use flexbox for vertical alignment */
+    flex-direction: column; /* Stack content vertically */
+    justify-content: center; /* Center content vertically */
+    align-items: center; /* Center content horizontally */
+}
+
+.footer-text {
+    margin: 0;
+    color: black;
+    font-size: 16px;
+}
+
+.footer-link {
+    color: black;
+    text-decoration: underline;
+    font-weight: bold;
+}
+
+.footer-icons {
+    margin-top: 15px;
+    display: flex;
+    justify-content: center;
+    gap: 20px; /* Space between icons */
+}
+
+.footer-icon {
+    font-size: 24px; /* Icon size */
+    color: black; /* Default icon color */
+    transition: color 0.2s ease, transform 0.2s ease; /* Smooth hover effect */
+}
+
+.footer-icon:hover {
+    color: var(--color2); /* Change to your site's accent color on hover */
+    transform: scale(1.2); /* Slightly enlarge the icon on hover */
+}

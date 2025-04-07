@@ -6,7 +6,7 @@
 body {
     font-family: "Poppins", sans-serif;
     --color1: #FFF ;
-    --color2: #181818fb ;
+    --color2: #181818 ;
 }
 .nav-bar {
     width: 100%;
@@ -89,6 +89,10 @@ body {
     font-weight: bold;
     font-size: large;
     user-select: none;
+}
+
+.buttonfont{
+    font-size: medium;
 }
 
 .bodyfont{

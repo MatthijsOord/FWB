@@ -44,19 +44,20 @@
 
 .about-section-gray{
     --marginside: 10%;
-    --margintopbottom: 2%;
+    --margintop: 6%;
+    --marginbottom: 2%;
     background-color: #333333a3;
     color: white;
     margin-left: var(--marginside);
     margin-right: var(--marginside);
-    margin-top: var(--margintopbottom);
-    margin-bottom: var(--margintopbottom);
+    margin-top: var(--margintop);
+    margin-bottom: var(--marginbottom);
     border-radius: 0.5%;
     cursor: default;
 }
 
 .about-page-background {
-    background-image: url("/assets/gitaren.jpg");
+    background-image: url("/assets/intrumenten.png");
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -105,7 +106,7 @@
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
-    margin-top: 230px;
+    margin-top: 130px;
     
 
     /*  */
@@ -117,7 +118,7 @@
     justify-content: center;
     flex-wrap: wrap;
     margin-top: 20px;
-    margin-bottom: 0px;
+    margin-bottom: 100px;
     
     /*  */
 }
@@ -155,6 +156,19 @@
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-position: 10%;
+}
+
+.main-showsection-gray {
+    --marginside: 5%;
+    --margintopbottom: 2%;
+    background-color: #333333a3;
+    color: white;
+    margin-left: var(--marginside);
+    margin-right: var(--marginside);
+    margin-top: var(--margintopbottom);
+    margin-bottom: var(--margintopbottom);
+    border-radius: 0.5%;
+    cursor: default;
 }
 
 /* flexboxes voor de concactpagina */
@@ -224,13 +238,14 @@
 
 .ticket-section-gray{
     --marginside: 10%;
-    --margintopbottom: 2%;
+    --margintop: 6%;
+    --marginbottom: 2%;
     background-color: #333333a3;
     color: white;
     margin-left: var(--marginside);
     margin-right: var(--marginside);
-    margin-top: var(--margintopbottom);
-    margin-bottom: var(--margintopbottom);
+    margin-top: var(--margintop);
+    margin-bottom: var(--marginbottom);
     border-radius: 0.5%;
     cursor: default;
 }
@@ -268,12 +283,14 @@
         --marginside: 0%;
         margin-left: var(--marginside);
         margin-right: var(--marginside);
+        margin-top: 22%;
     }
 
     .about-section-gray{
         --marginside: 0%;
         margin-left: var(--marginside);
         margin-right: var(--marginside);
+        margin-top: 22%;
     }
     
     .about-flexbox-item{
@@ -299,6 +316,7 @@
     }
     .main-flexbox-container-1 {
         margin-bottom: 0px;
+        margin-top: 60px;
     }
     .main-flexbox-container-2 {
         margin-top: 0px;

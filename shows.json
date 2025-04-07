@@ -1,178 +1,186 @@
 [
+  {
+      "date": "2025-05-03",
+      "name": "Beach Party",
+      "location": "Utrecht, NL",
+      "details": "Private event",
+      "link": "",
+      "buttonName": ""
+    },
+  {
+      "date": "2025-04-17",
+      "name": "The Waterhole",
+      "location": "Amsterdam, NL",
+      "details": "23:00-02:00",
+      "link": "https://waterhole.nl/nl/gigs/",
+      "buttonName": "Meer info"
+    },
     {
-        "date": "2025-04-17",
-        "name": "The Waterhole",
-        "location": "Amsterdam, NL",
-        "details": "23:00-02:00",
-        "link": "https://waterhole.nl/nl/gigs/",
-        "buttonName": "Meer info"
-      },
-      {
-        "date": "2025-04-26",
-        "name": "Kingsday",
-        "location": "De Bilt, NL",
-        "details": "15:00-16:30 | Free entrance | Outside",
-        "link": "https://maps.app.goo.gl/JnViUDqXEM6LVnmx6",
-        "buttonName": "Meer info"
-      },
-      {
-        "date": "2025-05-05",
-        "name": "Liberation Festival",
-        "location": "De Bilt, NL",
-        "details": "Free entrance",
-        "link": "https://maps.app.goo.gl/JnViUDqXEM6LVnmx6",
-        "buttonName": "Meer info"
-      },
-      {
-        "date": "2025-06-27",
-        "name": "Wedding",
-        "location": "Utrecht, NL",
-        "details": "Private event",
-        "link": "",
-        "buttonName": ""
-      },
-      {
-        "date": "2025-09-07",
-        "name": "Vrienden van De Bilt",
-        "location": "De Bilt, NL",
-        "details": "Free entrance",
-        "link": "https://maps.app.goo.gl/pAKcEv74ryNMMwZTA",
-        "buttonName": "Meer info"
-      },
-      {
-        "date": "2025-03-28",
-        "name": "Starsound",
-        "location": "Utrecht, NL",
-        "details": "",
-        "link": "",
-        "buttonName": ""
-      },
-      {
-        "date": "2024-12-31",
-        "name": "Pomp41 #2",
-        "location": "De Bilt, NL",
-        "details": "",
-        "link": "",
-        "buttonName": ""
-      },
-      {
-        "date": "2024-11-15",
-        "name": "Averechts",
-        "location": "Utrecht, NL",
-        "details": "",
-        "link": "",
-        "buttonName": ""
-      },
-      {
-        "date": "2024-10-21",
-        "name": "Company Event",
-        "location": "Utrecht, NL",
-        "details": "",
-        "link": "",
-        "buttonName": ""
-      },
-      {
-        "date": "2024-09-09",
-        "name": "Orca Event",
-        "location": "Utrecht, NL",
-        "details": "",
-        "link": "",
-        "buttonName": ""
-      },
-      {
-        "date": "2024-07-07",
-        "name": "Pomp41 #1",
-        "location": "De Bilt, NL",
-        "details": "",
-        "link": "",
-        "buttonName": ""
-      },
-      {
-        "date": "2024-06-30",
-        "name": "Gluren bij de Buren #2",
-        "location": "Utrecht, NL",
-        "details": "",
-        "link": "",
-        "buttonName": ""
-      },
-      {
-        "date": "2024-05-26",
-        "name": "Jus & Pepper",
-        "location": "Utrecht, NL",
-        "details": "",
-        "link": "",
-        "buttonName": ""
-      },
-      {
-        "date": "2024-04-12",
-        "name": "Sola #2",
-        "location": "Utrecht, NL",
-        "details": "",
-        "link": "",
-        "buttonName": ""
-      },
-      {
-        "date": "2024-03-16",
-        "name": "Company Event",
-        "location": "Zwolle, NL",
-        "details": "",
-        "link": "",
-        "buttonName": ""
-      },
-      {
-        "date": "2024-03-08",
-        "name": "Happietaria",
-        "location": "Utrecht, NL",
-        "details": "",
-        "link": "",
-        "buttonName": ""
-      },
-      {
-        "date": "2024-02-04",
-        "name": "Gluren bij de Buren #1",
-        "location": "Utrecht, NL",
-        "details": "",
-        "link": "",
-        "buttonName": ""
-      },
-      {
-        "date": "2024-02-03",
-        "name": "ICB Gala",
-        "location": "Utrecht, NL",
-        "details": "",
-        "link": "",
-        "buttonName": ""
-      },
-      {
-        "date": "2023-03-31",
-        "name": "Golf Club Event",
-        "location": "Bilthoven, NL",
-        "details": "",
-        "link": "",
-        "buttonName": ""
-      },
-      {
-        "date": "2023-01-29",
-        "name": "Sola #1",
-        "location": "Utrecht, NL",
-        "details": "",
-        "link": "",
-        "buttonName": ""
-      },
-      {
-        "date": "2022-09-09",
-        "name": "Zaak vol Smaak",
-        "location": "Delft, NL",
-        "details": "",
-        "link": "",
-        "buttonName": ""
-      },
-      {
-        "date": "2022-07-18",
-        "name": "Birthday Party",
-        "location": "De Bilt, NL",
-        "details": "",
-        "link": "",
-        "buttonName": ""
-      }
+      "date": "2025-04-26",
+      "name": "Kingsday",
+      "location": "De Bilt, NL",
+      "details": "15:00-16:30 | Free entrance",
+      "link": "https://maps.app.goo.gl/JnViUDqXEM6LVnmx6",
+      "buttonName": "Locatie"
+    },
+    {
+      "date": "2025-05-05",
+      "name": "Liberation Festival",
+      "location": "De Bilt, NL",
+      "details": "Free entrance",
+      "link": "https://maps.app.goo.gl/JnViUDqXEM6LVnmx6",
+      "buttonName": "Locatie"
+    },
+    {
+      "date": "2025-06-27",
+      "name": "Wedding",
+      "location": "Utrecht, NL",
+      "details": "Private event",
+      "link": "",
+      "buttonName": ""
+    },
+    {
+      "date": "2025-09-07",
+      "name": "Vrienden van De Bilt",
+      "location": "De Bilt, NL",
+      "details": "Free entrance",
+      "link": "https://maps.app.goo.gl/pAKcEv74ryNMMwZTA",
+      "buttonName": "Meer info"
+    },
+    {
+      "date": "2025-03-28",
+      "name": "Starsound",
+      "location": "Utrecht, NL",
+      "details": "",
+      "link": "",
+      "buttonName": ""
+    },
+    {
+      "date": "2024-12-31",
+      "name": "Pomp41 #2",
+      "location": "De Bilt, NL",
+      "details": "",
+      "link": "",
+      "buttonName": ""
+    },
+    {
+      "date": "2024-11-15",
+      "name": "Averechts",
+      "location": "Utrecht, NL",
+      "details": "",
+      "link": "",
+      "buttonName": ""
+    },
+    {
+      "date": "2024-10-21",
+      "name": "Company Event",
+      "location": "Utrecht, NL",
+      "details": "",
+      "link": "",
+      "buttonName": ""
+    },
+    {
+      "date": "2024-09-09",
+      "name": "Orca Event",
+      "location": "Utrecht, NL",
+      "details": "",
+      "link": "",
+      "buttonName": ""
+    },
+    {
+      "date": "2024-07-07",
+      "name": "Pomp41 #1",
+      "location": "De Bilt, NL",
+      "details": "",
+      "link": "",
+      "buttonName": ""
+    },
+    {
+      "date": "2024-06-30",
+      "name": "Gluren bij de Buren #2",
+      "location": "Utrecht, NL",
+      "details": "",
+      "link": "",
+      "buttonName": ""
+    },
+    {
+      "date": "2024-05-26",
+      "name": "Jus & Pepper",
+      "location": "Utrecht, NL",
+      "details": "",
+      "link": "",
+      "buttonName": ""
+    },
+    {
+      "date": "2024-04-12",
+      "name": "Sola #2",
+      "location": "Utrecht, NL",
+      "details": "",
+      "link": "",
+      "buttonName": ""
+    },
+    {
+      "date": "2024-03-16",
+      "name": "Company Event",
+      "location": "Zwolle, NL",
+      "details": "",
+      "link": "",
+      "buttonName": ""
+    },
+    {
+      "date": "2024-03-08",
+      "name": "Happietaria",
+      "location": "Utrecht, NL",
+      "details": "",
+      "link": "",
+      "buttonName": ""
+    },
+    {
+      "date": "2024-02-04",
+      "name": "Gluren bij de Buren #1",
+      "location": "Utrecht, NL",
+      "details": "",
+      "link": "",
+      "buttonName": ""
+    },
+    {
+      "date": "2024-02-03",
+      "name": "ICB Gala",
+      "location": "Utrecht, NL",
+      "details": "",
+      "link": "",
+      "buttonName": ""
+    },
+    {
+      "date": "2023-03-31",
+      "name": "Golf Club Event",
+      "location": "Bilthoven, NL",
+      "details": "",
+      "link": "",
+      "buttonName": ""
+    },
+    {
+      "date": "2023-01-29",
+      "name": "Sola #1",
+      "location": "Utrecht, NL",
+      "details": "",
+      "link": "",
+      "buttonName": ""
+    },
+    {
+      "date": "2022-09-09",
+      "name": "Zaak vol Smaak",
+      "location": "Delft, NL",
+      "details": "",
+      "link": "",
+      "buttonName": ""
+    },
+    {
+      "date": "2022-07-18",
+      "name": "Birthday Party",
+      "location": "De Bilt, NL",
+      "details": "",
+      "link": "",
+      "buttonName": ""
+    }
 ]

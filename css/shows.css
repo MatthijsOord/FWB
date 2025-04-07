@@ -15,6 +15,10 @@
     transition: background 0.3s ease-in-out;
 }
 
+.shows-container {
+    border-top: 1px solid rgba(255, 255, 255, 0.2);
+}
+
 .seated-event-row:hover {
     background: rgba(0, 0, 0, 0.096);
     -webkit-transition: background 0.1s ease-in-out;
