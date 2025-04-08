@@ -231,6 +231,11 @@
     min-height: 100%; /* Helps with vertical alignment */
 }
 
+.shows-flexbox-container {
+    display: flex;
+    align-items: stretch; /* Ensures both children take up equal height */
+}
+
 .ticket-flexbox-container {
     display: flex;
     align-items: stretch; /* Ensures both children take up equal height */
