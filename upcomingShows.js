@@ -3,6 +3,7 @@ fetch('shows.json')
     .then(response => response.json())
     .then(shows => {
         const today = new Date();
+        today.setHours(0, 0, 0, 0); // Set to the start of today
 
         // Filter and sort the upcoming shows
         const upcomingShows = shows
