@@ -3,12 +3,11 @@ fetch('shows.json')
 .then(response => response.json())
 .then(shows => {
     const today = new Date();
-    const tomorrow = new Date(today);
-    tomorrow.setDate(today.getDate() + 1); // Add one day to today
+    const startOfToday = new Date(today.getFullYear(), today.getMonth(), today.getDate()); // Start of today (midnight)
 
     // Separate and sort shows
-    const upcomingShows = shows.filter(show => new Date(show.date) >= tomorrow).sort((a, b) => new Date(a.date) - new Date(b.date));
-    const pastShows = shows.filter(show => new Date(show.date) < tomorrow).sort((a, b) => new Date(b.date) - new Date(a.date));
+    const upcomingShows = shows.filter(show => new Date(show.date) >= startOfToday).sort((a, b) => new Date(a.date) - new Date(b.date));
+    const pastShows = shows.filter(show => new Date(show.date) < startOfToday).sort((a, b) => new Date(b.date) - new Date(a.date));
 
     // Render shows
     renderShows(upcomingShows, 'upcoming-shows');
@@ -24,7 +23,7 @@ function renderShows(shows, containerId) {
         showElement.className = 'seated-event-row';
 
         // Check if the show is in the past
-        const isPastShow = new Date(show.date) < new Date(new Date().setDate(new Date().getDate() + 1));
+        const isPastShow = new Date(show.date) < new Date(new Date().getFullYear(), new Date().getMonth(), new Date().getDate());
 
         // Render differently for past shows
         if (isPastShow) {
