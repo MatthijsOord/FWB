@@ -169,7 +169,7 @@
 }
 
 .main-showsection-gray {
-    --marginside: 5%;
+    --marginside: 3%;
     --margintopbottom: 2%;
     background-color: #333333a3;
     color: white;
@@ -318,6 +318,12 @@
     }
     .about-flexbox-item-3{
         min-height: 300px;
+    }
+
+    .main-showsection-gray {
+        --marginside: 0%;
+        margin-left: var(--marginside);
+        margin-right: var(--marginside);
     }
     .main-flexbox-item{
         width: 600px;
