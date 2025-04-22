@@ -2,7 +2,6 @@
     background-color: white;
     padding: 20px;
     text-align: center;
-    border-top: 1px solid #ddd; /* Optional: Add a subtle border at the top */
     font-family: 'Work Sans', sans-serif; /* Match the site's font */
     height: 150px; /* Set the footer height */
     display: flex; /* Use flexbox for vertical alignment */

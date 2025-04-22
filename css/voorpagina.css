@@ -5,12 +5,22 @@
 }
 
 .vmidden{
-    background-color: #3d3d3d;
-    border: #f05001;
+    /*
+    background-color: #ffe8dd;
+    
+    */
+    background-image: url("/assets/audience.JPG");
+    background-size: cover;
+    background-repeat: repeat;
+    background-position: 50% 50%; 
     width: 100%;
     z-index: 20;
     padding: 15px;
-}
+
+     /* Add a broken white border */
+     border: 35px solid rgb(255, 228, 203);
+     box-sizing: border-box; /* Ensures padding and border are included in the element's total width/height */
+    }
 
 .body-background{
     background-image: url("/assets/voorpagina.jpg");
@@ -153,6 +163,11 @@
         align-items: center;
         justify-content: center;
     }
+    .vmidden{
+        /* Add a broken white border */
+        border: 20px solid rgb(255, 228, 203);
+        box-sizing: border-box; /* Ensures padding and border are included in the element's total width/height */
+       }
 }
 
 #background-div {
@@ -173,3 +188,4 @@
     height: 100%;
     object-fit: cover; /* Ensure the video covers the container */
 }
+

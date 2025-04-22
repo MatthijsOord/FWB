@@ -3,6 +3,7 @@ body {
     background: rgba(34, 34, 34);
     font-family: 'Work Sans', sans-serif;
     font-weight: 300;
+    overflow-x: hidden;
 }
 
 .tekstmidden{
