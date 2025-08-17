@@ -1,5 +1,13 @@
 [
   {
+    "date": "2025-08-23",
+    "name": "Wedding",
+    "location": "Deventer, NL",
+    "details": "Private event",
+    "link": "",
+    "buttonName": ""
+  },
+  {
     "date": "2025-11-27",
     "name": "Anniversary party",
     "location": "Utrecht, NL",
@@ -24,7 +32,7 @@
     "buttonName": ""
   },
   {
-    "date": "2025-08-28",
+    "date": "2025-08-22",
     "name": "Wedding",
     "location": "Utrecht, NL",
     "details": "Private event",
