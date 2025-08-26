@@ -1,5 +1,21 @@
 [
   {
+    "date": "2025-10-14",
+    "name": "Orca Event",
+    "location": "Bilthoven, NL",
+    "details": "Private event",
+    "link": "",
+    "buttonName": ""
+  },
+  {
+    "date": "2025-10-11",
+    "name": "Nova Event",
+    "location": "Bilthoven, NL",
+    "details": "Private event",
+    "link": "",
+    "buttonName": ""
+  },
+  {
     "date": "2025-08-23",
     "name": "Wedding",
     "location": "Deventer, NL",
@@ -72,14 +88,6 @@
       "buttonName": "Locatie"
     },
     {
-      "date": "2025-09-07",
-      "name": "Vrienden van De Bilt",
-      "location": "De Bilt, NL",
-      "details": "14:00-16:00",
-      "link": "https://vvdb.eventgoose.com/events/5r6PGEobpvmMLvKw/info",
-      "buttonName": "Tickets"
-    },
-    {
       "date": "2025-03-28",
       "name": "Starsound",
       "location": "Utrecht, NL",
@@ -89,7 +97,7 @@
     },
     {
       "date": "2024-12-31",
-      "name": "Pomp41 #2",
+      "name": "Pomp41",
       "location": "De Bilt, NL",
       "details": "",
       "link": "",
@@ -121,7 +129,7 @@
     },
     {
       "date": "2024-07-07",
-      "name": "Pomp41 #1",
+      "name": "Pomp41",
       "location": "De Bilt, NL",
       "details": "",
       "link": "",
@@ -129,7 +137,7 @@
     },
     {
       "date": "2024-06-30",
-      "name": "Gluren bij de Buren #2",
+      "name": "Gluren bij de Buren",
       "location": "Utrecht, NL",
       "details": "",
       "link": "",
@@ -145,7 +153,7 @@
     },
     {
       "date": "2024-04-12",
-      "name": "Sola #2",
+      "name": "Sola",
       "location": "Utrecht, NL",
       "details": "",
       "link": "",
@@ -169,7 +177,7 @@
     },
     {
       "date": "2024-02-04",
-      "name": "Gluren bij de Buren #1",
+      "name": "Gluren bij de Buren",
       "location": "Utrecht, NL",
       "details": "",
       "link": "",
@@ -193,7 +201,7 @@
     },
     {
       "date": "2023-01-29",
-      "name": "Sola #1",
+      "name": "Sola",
       "location": "Utrecht, NL",
       "details": "",
       "link": "",
