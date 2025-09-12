@@ -1,5 +1,13 @@
 [
   {
+      "date": "2025-10-24",
+      "name": "The Waterhole",
+      "location": "Amsterdam, NL",
+      "details": "23:00-02:00",
+      "link": "https://waterhole.nl/nl/gigs/",
+      "buttonName": "Meer info"
+    },
+  {
     "date": "2025-10-14",
     "name": "Orca Event",
     "location": "Utrecht, NL",
