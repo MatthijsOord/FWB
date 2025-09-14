@@ -121,3 +121,53 @@
         min-width: 20px;
     }
 }
+
+/* Styles for past-shows year accordion */
+.year-section {
+    margin: 6px 0;
+    border-top: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+/* remove duplicate top border on the first year so it lines up with the container's top border */
+.shows-container .year-section:first-child {
+    border-top: none;
+    margin-top: 0;
+}
+
+.year-toggle {
+    display: block;
+    width: 100%;
+    text-align: left;
+    padding: 10px 12px;
+    background: transparent;
+    border: none;
+    color: inherit;
+    font-weight: 700;
+    font-size: 24px;
+    cursor: pointer;
+    text-transform: uppercase;
+    outline: none;
+    transition: background 0.15s ease;
+}
+
+.year-toggle:hover {
+    background: rgba(0,0,0,0.06);
+}
+
+.year-shows {
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.25s ease, padding 0.25s ease;
+}
+
+/* when open allow content to show; large max-height to accommodate contents */
+.year-shows.open {
+    max-height: 2000px;
+    padding-bottom: 8px;
+}
+
+/* indent rows under the year header for visual separation */
+.year-shows .seated-event-row {
+    padding-left: 10px;
+    padding-right: 10px;
+}
