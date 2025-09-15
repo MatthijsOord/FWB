@@ -93,13 +93,13 @@ function renderPastByYear(pastShows, containerId) {
 
         const yearShows = document.createElement('div');
         yearShows.className = 'year-shows';
-        // Open the most recent past year by default (optional)
+        // Optionally open the most recent past year by default
         if (idx === 0) {
             yearShows.classList.add('open');
             toggle.setAttribute('aria-expanded', 'true');
         }
 
-        // Render shows for this year (use compact past-style by default)
+        // Render shows for this year — omit any link/button since these are past shows
         showsByYear[year].forEach(show => {
             const showElement = document.createElement('div');
             showElement.className = 'seated-event-row';
@@ -111,9 +111,6 @@ function renderPastByYear(pastShows, containerId) {
                         <div class="seated-event-venue-location">${show.location}</div>
                     </div>
                     <div class="seated-event-details-cell">${show.details || ''}</div>
-                </div>
-                <div class="seated-event-link-cells">
-                    ${show.link ? `<div class="seated-event-link-cell seated-event-link-cell1"><a class="seated-event-link seated-event-link1" href="${show.link}" target="_blank" rel="noopener noreferrer">${show.buttonName || 'Info'}</a></div>` : ''}
                 </div>
             `;
             yearShows.appendChild(showElement);
