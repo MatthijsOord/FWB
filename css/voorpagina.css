@@ -329,6 +329,13 @@ header, footer {
     text-transform: uppercase;
 }
 
+.headertext {
+    color: white;
+    font-size: 2em;
+    font-family: 'Archivo Black', sans-serif;
+    text-transform: uppercase;
+}
+
 .song-desc {
     color: #bbbbbb;
     font-size: 1.1em;
