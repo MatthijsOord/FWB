@@ -22,26 +22,11 @@
     padding: 15px;
 
      /* Add a broken white border */
-     --border-size: 35px;
-     border: var(--border-size) solid rgb(255, 228, 203);
      box-sizing: border-box; /* Ensures padding and border are included in the element's total width/height */
 
-     /* required for the overlay pseudo-element */
      position: relative;
      overflow: visible; /* allow overlay to extend over the border */
 
-     /* Retro control variables */
-     /* overall grain intensity 0..1 (lower = subtler) */
-     --noise-opacity: 0.5;
-     /* noise tile size: bigger = coarser/larger grain */
-     --noise-tile-size: 90px;
-     /* scanline darkness 0..1 */
-     --scanline-opacity: 0.06;
-     /* warm tint color and strength */
-     --tint-color: 230,140,70; /* rgb values */
-     --tint-opacity: 0.12;
-     /* vignette strength 0..1 */
-     --vignette-opacity: 0.22;
 }
 
 /* tint layer (under noise/scanlines but above background)
@@ -59,37 +44,7 @@
     transition: opacity .2s;
 }
 
-/* noise overlay extended to cover border too */
-.vmidden::after{
-    content: "";
-    position: absolute;
-    inset: calc(-1 * var(--border-size)); /* extend over border */
-    pointer-events: none;
-    z-index: 2;
 
-    /* create a mid-gray base so overlay blending shows both light and dark specks */
-    background-color: rgba(128,128,128, calc(var(--noise-opacity) * 0.9) );
-
-    /* scanlines, SVG noise (tiled), vignette */
-    background-image:
-      repeating-linear-gradient(180deg, rgba(0,0,0,var(--scanline-opacity)) 0 1px, rgba(255,255,255,0) 1px 6px),
-      url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' preserveAspectRatio='none' width='64' height='64' viewBox='0 0 64 64'><filter id='n'><feTurbulence baseFrequency='0.6' numOctaves='2' type='fractalNoise' stitchTiles='stitch'/><feColorMatrix type='matrix' values='0.5 0 0 0 0  0 0.5 0 0 0  0 0 0.5 0 0  0 0 0 1 0'/></filter><rect width='100%' height='100%' filter='url(%23n)'/></svg>"),
-      radial-gradient(ellipse at center, rgba(0,0,0,0) 40%, rgba(0,0,0,var(--vignette-opacity)) 100%);
-    background-repeat: repeat, repeat, no-repeat;
-
-    /* use explicit tile size for SVG noise so it tiles at intended grain size */
-    background-size: 100% 100%, var(--noise-tile-size) var(--noise-tile-size), cover;
-
-    /* overlay blend makes the mid-gray + noise produce visible grain without simply darkening */
-    mix-blend-mode: overlay;
-
-    /* keep overall opacity high (we control intensity via the gray layer + opacity variable) */
-    opacity: 1;
-
-    /* subtle punch to make grain readable */
-    filter: contrast(110%) brightness(95%);
-    image-rendering: auto;
-}
 
 /* ensure vmidden content sits above overlays */
 .vmidden > * {
@@ -97,10 +52,6 @@
     z-index: 3;
 }
 
-/* quick presets */
-.vmidden.retro-strong  { --noise-opacity: 0.9; --scanline-opacity: 0.12; --tint-opacity: 0.16; --vignette-opacity: 0.35; }
-.vmidden.retro-medium  { --noise-opacity: 0.65; --scanline-opacity: 0.08; --tint-opacity: 0.12; --vignette-opacity: 0.25; }
-.vmidden.retro-subtle  { --noise-opacity: 0.35; --scanline-opacity: 0.04; --tint-opacity: 0.06; --vignette-opacity: 0.12; }
 
 .body-background{
     background-image: url("/assets/voorpagina.jpg");
@@ -152,14 +103,14 @@
     margin: auto;
     width: 190px;
     height: 63px;
-    border-radius: 300px;
+    border-radius: 25px;
     transition: 100ms;
     display: table;
     text-align: center;
 
 
 
-    background-color: #f05001;
+    background-color: #bd2837ee;
 
     /* border: 3px solid #333; */
 }
@@ -232,11 +183,16 @@
         margin: auto;
         width: 285px; /*waardes keer 1.5*/
         height: 50px;
-        border-radius: 450px;
+        border-radius: 25px;
     }
     .buttonbox:hover{
         scale: 1.05 /*waardes keer 1.05*/
     }
+
+    .scaledtext{
+        scale: 1;
+    }
+
     .verticalCenter{
         height: 70px;
         display: flex;
@@ -307,7 +263,7 @@ header, footer {
 }
 
 .new-song-section {
-    background-color: #182229;
+    background-color: #bd2837;
     padding: 60px 20px;
 }
 
@@ -337,7 +293,7 @@ header, footer {
 }
 
 .song-desc {
-    color: #bbbbbb;
+    color: #ffe8ea;
     font-size: 1.1em;
     margin-bottom: 20px;
 }

@@ -101,6 +101,11 @@ body {
   font-style: normal;
 }
 
+.scaledtext{
+    scale: 1.25;
+    text-transform: uppercase;
+}
+
 .bodyfont p{
     font-size: 18px;
     line-height: 1.6em;
