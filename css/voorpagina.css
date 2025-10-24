@@ -199,11 +199,6 @@
         align-items: center;
         justify-content: center;
     }
-    .vmidden{
-        /* Add a broken white border */
-        border: 20px solid rgb(255, 228, 203);
-        box-sizing: border-box; /* Ensures padding and border are included in the element's total width/height */
-       }
 }
 
 /* Page-level layout to allow .voven to grow and push footer to bottom */
