@@ -306,3 +306,46 @@ header, footer {
     z-index: 1;
 }
 
+.new-song-section {
+    background-color: #182229;
+    padding: 60px 20px;
+}
+
+.new-song-container {
+    max-width: 800px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.song-info {
+    margin-bottom: 30px;
+}
+
+.song-title {
+    color: white;
+    font-size: 2em;
+    margin-bottom: 10px;
+    font-family: 'Archivo Black', sans-serif;
+    text-transform: uppercase;
+}
+
+.song-desc {
+    color: #bbbbbb;
+    font-size: 1.1em;
+    margin-bottom: 20px;
+}
+
+.spotify-embed-container {
+    max-width: 100%;
+    margin: 0 auto;
+}
+
+@media (max-width: 768px) {
+    .new-song-section {
+        padding: 40px 15px;
+    }
+    
+    .song-title {
+        font-size: 1.5em;
+    }
+}
