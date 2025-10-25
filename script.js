@@ -1,50 +1,37 @@
 document.addEventListener("DOMContentLoaded", function () {
     const backgroundVideo = document.getElementById('background-video');
-    const FADE_DELAY = 1500; // 1.5 seconds delay
 
     // Check if the device is in battery-saving mode
     if ('getBattery' in navigator) {
         navigator.getBattery().then(function (battery) {
             if (battery.savePower) {
                 console.log('Battery saving mode is enabled. Background video will not be loaded.');
+                // Ensure the video is hidden
                 backgroundVideo.style.display = 'none';
-                return;
+                return; // Exit without modifying the background
             }
+
+            // Proceed with the video behavior if battery saving mode is not enabled
             initializeBackgroundVideo();
         });
     } else {
+        // If the Battery Status API is not supported, proceed with default behavior
         initializeBackgroundVideo();
     }
 
     function initializeBackgroundVideo() {
+        // Make sure the video is displayed
         backgroundVideo.style.display = 'block';
-        // Pause the video initially
-        backgroundVideo.pause();
-
-        let isLoaded = false;
-        let timerComplete = false;
-
-        // Function to start video when both conditions are met
-        function startVideoIfReady() {
-            if (isLoaded && timerComplete) {
-                backgroundVideo.style.opacity = 1;
-                backgroundVideo.play();
-            }
-        }
 
         // Wait until the video is loaded completely
         backgroundVideo.addEventListener('canplaythrough', function () {
-            isLoaded = true;
-            startVideoIfReady();
+            // Add a 1.5-second delay before fading in the video
+            setTimeout(function () {
+                backgroundVideo.style.opacity = 1;
+            }, 1500);
         });
 
-        // Start the timer
-        setTimeout(function () {
-            timerComplete = true;
-            startVideoIfReady();
-        }, FADE_DELAY);
-
-        // Handle error cases
+        // Optionally, handle error cases
         backgroundVideo.addEventListener('error', function () {
             console.error('Video failed to load.');
             // Fallback behavior can be implemented here
