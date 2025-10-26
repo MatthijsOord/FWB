@@ -258,8 +258,9 @@ header, footer {
 }
 
 .new-song-section {
+    background-image: linear-gradient(to bottom, #bd2837, #91202b);
     background-color: #bd2837;
-    padding: 60px 20px;
+    padding: 100px 20px;
 }
 
 .new-song-container {
