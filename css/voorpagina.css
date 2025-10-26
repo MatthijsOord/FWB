@@ -225,7 +225,7 @@ header, footer {
     display: flex;
     flex-direction: column;
     position: relative;   /* contains absolute background */
-    min-height: 0;        /* allow children to scroll if needed */
+    min-height: 55vh;        /* allow children to scroll if needed */
 }
 
 #background-div {
