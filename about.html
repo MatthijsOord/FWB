@@ -9,6 +9,7 @@
         <link rel="stylesheet" href="css/basic.css">
         <link rel="stylesheet" href="css/flexbox.css">
         <link rel="stylesheet" href="css/newheader.css">
+        <link rel="stylesheet" href="css/repertoire.css">
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css" integrity="sha512-YWzhKL2whUzgiheMoBFwW8CKV4qpHQAEuvilg9FAn5VJUDwKZZxkJNuGM4XkWuk94WCrrwslk8yWNGmY1EduTA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
         <link href="https://fonts.googleapis.com/css?family=Work+Sans:400">
         <link href="https://fonts.googleapis.com/css2?family=Archivo+Black&display=swap" rel="stylesheet">
@@ -29,14 +30,33 @@
     <header>
         <nav>
             <ul class='nav-bar'>
-                
                 <li class='logo'><a href='/'><img src='assets/logo.png' alt="Logo of Friends With Benefits"/></a></li>
+                <div class="nav-social">
+                    <a href="https://open.spotify.com/artist/0wrNuH6fiaFTd9CepJqjSG" target="_blank" class="nav-icon" aria-label="Spotify">
+                        <i class="fab fa-spotify"></i>
+                    </a>
+                    <a href="https://music.apple.com/ca/artist/roof-rabbit/1847013510" target="_blank" class="nav-icon" aria-label="Apple Music">
+                        <i class="fab fa-apple"></i>
+                    </a>
+                    <a href="https://www.youtube.com/@friendswithbenefitsband" target="_blank" class="nav-icon" aria-label="YouTube">
+                        <i class="fab fa-youtube"></i>
+                    </a>
+                    <a href="https://www.instagram.com/fwbband/" target="_blank" class="nav-icon" aria-label="Instagram">
+                        <i class="fab fa-instagram"></i>
+                    </a>
+                    <a href="https://www.tiktok.com/@fwbband" target="_blank" class="nav-icon" aria-label="TikTok">
+                        <i class="fab fa-tiktok"></i>
+                    </a>
+                    <a href="https://www.facebook.com/profile.php?id=61568644762435" target="_blank" class="nav-icon" aria-label="Facebook">
+                        <i class="fab fa-facebook"></i>
+                    </a>
+                </div>
                 <input type='checkbox' id='check' />
                 <span class="menu font">
                     <li><a href="/">Home</a></li>
                     <li><a class="active" href="/about">About</a></li>
                     <li><a href="/shows">Shows</a></li>
-                    <li><a href="https://docs.google.com/spreadsheets/d/1owiVtKLsjDt-LiFdrPoOlDxRbqNchzc2lh9CV4a_pK4/edit?usp=sharing" target="_blank">Repertoire</a></li>
+                    <li><a href="about#repertoire">Repertoire</a></li>
                     <label for="check" class="close-menu"><i class="fas fa-times"></i></label>
                 </span>
                 <label for="check" class="open-menu"><i class="fas fa-bars"></i></label>
@@ -90,6 +110,19 @@
         </div>
         <div style="opacity: 0;">h</div>
     </div>
+    <section id="repertoire" class="repertoire-root">
+        <div class="repertoire-intro bodyfont">
+                    <h1>REPERTOIRE</h1>
+                    <p class="rep-desc">Zie hieronder ons gehele repetoire aan nummers die wij spelen</p>
+                </div>
+        <div id="repertoire-container" class="repertoire-container" aria-live="polite">
+            <div class="about-space-title about-flexbox-item about-flexbox-item-2">
+                        <h1>REPERTOIRE</h1>
+            </div>
+            <div class="loading">Laden...</div>
+        </div>
+    </section>
+    <script src="js/repertoire.js" defer></script>
     <footer class="footer">
         <p class="footer-text">
             Voor vragen, email ons op <a href="mailto:info@fwbband.nl" class="footer-link">info@fwbband.nl</a>

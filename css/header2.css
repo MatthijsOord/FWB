@@ -110,3 +110,29 @@ body {
     font-size: 18px;
     line-height: 1.6em;
 }
+
+.nav-social {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    position: absolute; /* Add absolute positioning */
+    left: 50%; /* Position at 50% from left */
+    transform: translateX(-50%); /* Center the element */
+}
+
+.nav-icon {
+    color: var(--color1);
+    font-size: 1.2rem;
+    transition: 0.15s ease-in-out;
+}
+
+.nav-icon:hover {
+    opacity: 0.8;
+    scale: 1.25;
+}
+
+@media(max-width: 768px) {
+    .nav-social {
+        display: none; /* Hide social icons on mobile */
+    }
+}

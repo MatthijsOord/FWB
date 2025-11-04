@@ -1,0 +1,128 @@
+/* Repertoire page specific styles */
+.repertoire-page {
+  padding: 2rem;
+  margin: 120px auto 0;
+  min-height: calc(100vh - 120px);
+  width: 90%;
+  font-family: "Poppins", sans-serif;
+  color: #fff;
+}
+
+.bodybackground {
+  background-image: url("/assets/voorpagina.jpg");
+  background-size: cover;
+  background-repeat: repeat;
+  background-attachment: fixed;
+  background-position: 50% 50%;
+}
+
+.repertoire-intro {
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+.repertoire-intro h1 {
+  font-size: 2rem;
+  color: #ffffff;
+  margin: 0 0 1rem 0;
+      color: white;
+    
+    font-family: 'Archivo Black', sans-serif;
+    text-transform: uppercase;
+}
+
+.rep-desc {
+    color: #ffe8ea;
+    font-size: larger;
+}
+
+.repertoire-intro p {
+  margin: 0.3rem 0;
+  font-size: 1rem;
+}
+
+.repertoire-root {
+  padding: 2rem;
+  background-image: linear-gradient(to bottom, #A1362E, #F15033);
+}
+
+.repertoire-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr; /* left tall column + two equal columns on right */
+  grid-auto-rows: minmax(260px, auto); /* adjust height to taste */
+  gap: 1.5rem;
+  align-items: start;
+  width: 100%;
+}
+
+/* allow cards to size inside the grid (remove min-width flex behavior) */
+.genre-card {
+  min-width: 0;
+  border-radius: 12px;
+  padding: 1.5rem;
+  /*box-shadow: 0 4px 15px rgba(255,51,102,0.15);
+  border: 1px solid #333;*/
+  background: #1111117e;
+  box-shadow: 0 7px 14px 0 rgb(0 0 0 / 42%);
+  height: 100%;
+  color: #fff;
+}
+
+/* make the first card span two rows (the tall left box in your mockup) */
+.repertoire-container .genre-card:first-child {
+  grid-row: span 2;
+  display: flex;
+  flex-direction: column;
+}
+
+.song-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.song-item {
+  padding: 0.5rem 0;
+  /*border-bottom: 1px solid #00000036;*/
+  display: flex;
+  gap: 0.5rem;
+  align-items: baseline;
+}
+
+.song-title {
+  font-weight: 500;
+  color: #fff;
+}
+
+.song-artist {
+  color: #c0c0c0;
+  font-size: 0.9rem;
+}
+
+/* Responsive design */
+@media (max-width: 1200px) {
+  .genre-card {
+    min-width: 70%;
+  }
+}
+
+@media (max-width: 900px) {
+  .repertoire-container {
+    grid-template-columns: 1fr;
+    grid-auto-rows: auto;
+  }
+  .repertoire-container .genre-card:first-child {
+    grid-row: auto;
+  }
+}
+
+@media (max-width: 768px) {
+  .genre-card {
+    min-width: 70%;
+  }
+  
+  .repertoire-page {
+    padding: 1rem;
+    margin-top: 100px;
+  }
+}

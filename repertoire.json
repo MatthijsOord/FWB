@@ -1,0 +1,91 @@
+{
+  "spotifyPlaylist": "https://open.spotify.com/playlist/YOUR_PLAYLIST_ID",
+  "genres": [
+    {
+      "name": "(Retro) Pop",
+      "songs": [
+        {"title": "Gimme gimme gimme", "artist": "ABBA"},
+        {"title": "Mamma Mia", "artist": "ABBA"},
+        {"title": "Does your mother know", "artist": "ABBA"},
+        {"title": "Fuck You", "artist": "CeeLo Green"},
+        {"title": "Crazy", "artist": "Gnarls Barkley"},
+        {"title": "Rolling in the deep", "artist": "Adele"},
+        {"title": "Yellow", "artist": "Coldplay"},
+        {"title": "Ironic", "artist": "Alanis Morissette"},
+        {"title": "Trouble", "artist": "Coldplay"},
+        {"title": "One", "artist": "U2 & Mary J. Blige"},
+        {"title": "No mercy", "artist": "Racoon"},
+        {"title": "Get lucky", "artist": "Daft Punk"},
+        {"title": "What's Up?", "artist": "4 Non Blondes"},
+        {"title": "We are family", "artist": "Sister Sledge"},
+        {"title": "Through the looking glass", "artist": "Di-rect"},
+        {"title": "Take me to church", "artist": "Hozier"},
+        {"title": "I'll be there for you", "artist": "The Rembrandts"},
+        {"title": "Mr rock and roll", "artist": "Amy Macdonald"},
+        {"title": "99 Luftballons", "artist": "Nena"},
+        {"title": "Best song ever", "artist": "One Direction"},
+        {"title": "Holding out for a hero", "artist": "Bonnie Tyler"},
+        {"title": "Call me", "artist": "Blondie"},
+        {"title": "Your love", "artist": "The Outfield"},
+        {"title": "Shined on me", "artist": "Praise Cats, Andrea Love"}
+      ]
+    },
+    {
+      "name": "Rock",
+      "songs": [
+        {"title": "Nobody's Wife", "artist": "Anouk"},
+        {"title": "I was made for loving you", "artist": "KISS"},
+        {"title": "We will rock you", "artist": "Queen"},
+        {"title": "Summer of '69", "artist": "Bryan Adams"},
+        {"title": "Beggin'", "artist": "Måneskin"},
+        {"title": "Hold the line", "artist": "Toto"},
+        {"title": "Crazy little thing called love", "artist": "Queen"},
+        {"title": "Creep", "artist": "Radiohead"},
+        {"title": "I wish it would rain down", "artist": "Phil Collins"},
+        {"title": "Jump", "artist": "Van Halen"},
+        {"title": "Alone", "artist": "Heart"}
+      ]
+    },
+    {
+      "name": "Countryrock / Folk",
+      "songs": [
+        {"title": "One of these nights", "artist": "Eagles"},
+        {"title": "It Never Rains in Southern California", "artist": "Albert Hammond"},
+        {"title": "You're so vain", "artist": "Carly Simon"},
+        {"title": "Have You Ever Seen The Rain", "artist": "CCR"},
+        {"title": "Bad Moon Rising", "artist": "CCR"},
+        {"title": "Proud Mary", "artist": "CCR"},
+        {"title": "Bloody motherfucking asshole", "artist": "Martha Wainwright"},
+        {"title": "Closer to Fine", "artist": "Indigo Girls"}
+      ]
+    },
+    {
+      "name": "Overige golden oldies",
+      "songs": [
+        {"title": "Sultans Of Swing", "artist": "Dire Straits"},
+        {"title": "Jolene", "artist": "Dolly Parton"},
+        {"title": "With a Little Help From My Friends", "artist": "The Beatles"},
+        {"title": "That's Alright", "artist": "Elvis Presley"},
+        {"title": "Norwegian wood", "artist": "The Beatles"},
+        {"title": "Blue Suede shoes", "artist": "Elvis Presley"},
+        {"title": "Dreams", "artist": "Fleetwood Mac"},
+        {"title": "Venus", "artist": "Shocking Blue"},
+        {"title": "Wish you were here", "artist": "Pink Floyd"},
+        {"title": "I don't know how to love him", "artist": "JCS"}
+      ]
+    },
+    {
+      "name": "Nederlandstalig",
+      "songs": [
+        {"title": "Alles is liefde", "artist": "Blöf"},
+        {"title": "Het regent zonnestralen", "artist": "Acda en de Munnik"},
+        {"title": "Sexy als ik dans", "artist": "Nielson"},
+        {"title": "Als ze er niet", "artist": "De Dijk"},
+        {"title": "Iedereen Is Van De Wereld", "artist": "The Scene"},
+        {"title": "Dag Esmee", "artist": "Acda en de Munnik"},
+        {"title": "Kapitein deel 2", "artist": "Acda en de Munnik"},
+        {"title": "Noodgeval", "artist": "Goldband"}
+      ]
+    }
+  ]
+}
