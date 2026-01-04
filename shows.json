@@ -1,5 +1,13 @@
 [
   {
+      "date": "2025-02-06",
+      "name": "De Paap",
+      "location": "Den Haag, NL",
+      "details": "22:00-00:00",
+      "link": "https://depaap.nl/",
+      "buttonName": "Meer info"
+    },
+  {
       "date": "2025-10-24",
       "name": "The Waterhole",
       "location": "Amsterdam, NL",
