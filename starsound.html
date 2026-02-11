@@ -8,6 +8,7 @@
         <link rel="stylesheet" href="css/header2.css">
         <link rel="stylesheet" href="css/basic.css">
         <link rel="stylesheet" href="css/flexbox.css"> 
+        <link rel="stylesheet" href="css/footer.css">
         <link rel="stylesheet" href="css/shows.css">
         <link rel="stylesheet" href="css/starsound.css"> 
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css" integrity="sha512-YWzhKL2whUzgiheMoBFwW8CKV4qpHQAEuvilg9FAn5VJUDwKZZxkJNuGM4XkWuk94WCrrwslk8yWNGmY1EduTA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
@@ -17,6 +18,7 @@
         <link rel="icon" href="assets\siteIcon.ico" type="image/x-icon"/>
         <!--<script src="background.js"></script>-->
         <!-- Google tag (gtag.js) -->
+        <script src="components/layout-component.js" defer></script>
         <script async src="https://www.googletagmanager.com/gtag/js?id=G-08532F92QJ"></script>
         <script>
         window.dataLayer = window.dataLayer || [];
@@ -29,20 +31,7 @@
 
 <body>
     <header>
-        <nav>
-            <ul class='nav-bar font'>
-                <li class='logo'><a href='/'><img src='assets/logo.png'/></a></li>
-                <input type='checkbox' id='check' />
-                <span class="menu">
-                    <li><a href="/">Home</a></li>
-                    <li><a href="/about">About</a></li>
-                    <li><a href="/shows">Shows</a></li>
-                    <li><a href="https://docs.google.com/spreadsheets/d/1owiVtKLsjDt-LiFdrPoOlDxRbqNchzc2lh9CV4a_pK4/edit?usp=sharing" target="_blank">Repertoire</a></li>
-                    <label for="check" class="close-menu"><i class="fas fa-times"></i></label>
-                </span>
-                <label for="check" class="open-menu"><i class="fas fa-bars"></i></label>
-            </ul>
-        </nav>
+        <nav-bar></nav-bar>
         </header>
     <div >
       <div class="shows-page-background"></div>
@@ -70,7 +59,7 @@
         </div>
         <div style="opacity: 0;">h</div>
     </div>
-
+    <page-footer></page-footer>
 
 </body>
 </html>
