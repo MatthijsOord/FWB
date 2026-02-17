@@ -136,3 +136,43 @@ body {
         display: none; /* Hide social icons on mobile */
     }
 }
+
+
+/* Transparent styles for the header */
+header {
+    position: fixed; /* Make the header sticky */
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1000; /* Ensure it stays above other elements */
+}
+
+.nav-bar {
+    background-color: var(--color2); /* Default background color */
+    transition: background-color 200ms ease-in-out; /* Smooth fade effect */
+}
+
+.nav-bar.transparent {
+
+    background-color: transparent; /* Transparent background when at the top */
+}
+
+#full-show-schedule-link {
+    position: relative;
+    text-decoration: none; /* Remove default underline */
+    color: white; /* Ensure the text color is white */
+}
+
+#full-show-schedule-link h2 {
+    margin: 0; /* Remove default margin from the h2 */
+}
+
+#full-show-schedule-link::after {
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: -3px; /* Space the line 5px below the text */
+    height: 2px; /* Thickness of the line */
+    background-color: white; /* Same color as the link text */
+    width: 100%; /* Match the width of the text */
+}

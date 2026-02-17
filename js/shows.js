@@ -1,5 +1,5 @@
 // Fetch data from the JSON file
-fetch('shows.json')
+fetch('data/shows.json')
 .then(response => response.json())
 .then(shows => {
     const today = new Date();

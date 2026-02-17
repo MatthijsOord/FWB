@@ -2,7 +2,7 @@ document.addEventListener('DOMContentLoaded', () => {
   const root = document.getElementById('repertoire-container');
   const spotifyLink = document.getElementById('spotify-link');
 
-  fetch('repertoire.json')
+  fetch('data/repertoire.json')
     .then(res => {
       if (!res.ok) throw new Error('Failed to load repertoire data');
       return res.json();

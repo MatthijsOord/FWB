@@ -308,3 +308,43 @@ header, footer {
         font-size: 1.5em;
     }
 }
+
+
+
+/* The video covers the entire div but is hidden initially */
+#background-video {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* Ensures the video covers the div */
+    object-position: 50% 20%;
+    opacity: 0; /* Initially hidden */
+    pointer-events: none; /* Disable any interaction */
+    z-index: -1; /* Ensure video is behind any content */
+    transition: opacity 1s ease-in; /* Smooth fade-in effect for the video */
+}
+
+
+
+#background-image {
+    background: url('/assets/voorpagina.jpg') no-repeat center center/cover; /* Fallback background */
+    overflow: hidden;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* Ensures the video covers the div */
+    pointer-events: none; /* Disable any interaction */
+    z-index: -1; /* Ensure video is behind any content */
+    transition: opacity 1.5s ease-in-out; /* Smooth fade-in effect for the video */
+}
+
+#check {display: none;}
+@media(max-width: 768px){
+    #background-div{
+        height: 100%;
+    }
+}
