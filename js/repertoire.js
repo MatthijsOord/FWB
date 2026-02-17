@@ -21,12 +21,21 @@ document.addEventListener('DOMContentLoaded', () => {
         const ul = document.createElement('ul');
         ul.className = 'song-list';
 
+        genre.songs.sort((a, b) => {
+          const artistA = (a.artist || '').toLowerCase();
+          const artistB = (b.artist || '').toLowerCase();
+          return artistA.localeCompare(artistB);
+        });
+
         genre.songs.forEach(song => {
           const li = document.createElement('li');
           li.className = 'song-item';
-          const title = document.createElement('span');
+          const title = document.createElement('a');
           title.className = 'song-title';
           title.textContent = song.title;
+          title.href = song.link || '#';
+          title.target = '_blank';
+          title.rel = 'noopener noreferrer';
           const artist = document.createElement('span');
           artist.className = 'song-artist';
           artist.textContent = song.artist ? ` — ${song.artist}` : '';

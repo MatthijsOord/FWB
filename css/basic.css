@@ -33,11 +33,13 @@ form {
 }
 
 .teamfoto {
-    width: 100%;
+    width: 80%;
     height: auto;
     margin-block: 10px;
     border-radius: 1%;
     box-shadow: 0 7px 14px 0 rgb(0 0 0 / 42%);
+    margin-inline: 10%;
+    
 }
 
 

@@ -73,5 +73,5 @@ class PageFooter extends HTMLElement {
     }   
 }
 
-customElements.define('page-footer', PageFooter);
+//customElements.define('page-footer', PageFooter);
 customElements.define('nav-bar', NavBar);

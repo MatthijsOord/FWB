@@ -32,8 +32,9 @@
 }
 
 .rep-desc {
-    color: #ffe8ea;
+    color: #fff;
     font-size: larger;
+    text-shadow: 0 7px 14px 0 rgba(0, 0, 0, 0.11);
 }
 
 .repertoire-intro p {
@@ -43,7 +44,12 @@
 
 .repertoire-root {
   padding: 2rem;
-  background-image: linear-gradient(to bottom, #bd2837, #91202b);
+  /*background-image: linear-gradient(to bottom, #bd2837, #91202b); */
+  background-image: url("/assets/FWB1.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: 50% 25%;
+  padding-inline: 5rem;
 }
 
 .repertoire-container {
@@ -62,10 +68,18 @@
   padding: 1.5rem;
   /*box-shadow: 0 4px 15px rgba(255,51,102,0.15);
   border: 1px solid #333;*/
-  background: rgb(88 82 82 / 31%);
+  background: rgba(37, 34, 34, 0.514);
   box-shadow: 0 7px 14px 0 rgba(0, 0, 0, 0.11);
   height: 100%;
   color: #fff;
+  transition: 100ms;
+  cursor: default;
+}
+
+.genre-card:hover {
+  scale: 1.01;
+  transition: 100ms;
+  background: rgba(37, 34, 34, 0.712);
 }
 
 /* make the first card span two rows (the tall left box in your mockup) */
@@ -89,9 +103,14 @@
   align-items: baseline;
 }
 
+.song-title:hover {
+  color: #ff3366;
+}
+
 .song-title {
   font-weight: 500;
   color: #fff;
+  text-decoration:none
 }
 
 .song-artist {

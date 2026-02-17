@@ -93,7 +93,7 @@
 }
 
 .verticalCenter{
-    height: 63px;
+    height: 60px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -101,16 +101,15 @@
 
 .buttonbox{
     margin: auto;
-    width: 190px;
-    height: 63px;
+    width: 165px;
     border-radius: 25px;
-    transition: 100ms;
+    transition: 50ms ease-in-out;
     display: table;
     text-align: center;
 
 
 
-    background-color: #bd2837a6;
+    background-color: #bd2837b7;
 
     /* border: 3px solid #333; */
 }
@@ -121,15 +120,6 @@
     height: 66.15px;*/
     scale: 1.1;
     opacity: 0.9;
-}
-
-.buttonbox:hover .link{
-    /*--margin: 10%;
-    margin-top: var(--margin);
-    margin-bottom: var(--margin);
-    text-decoration: underline;
-    font-size: large;*/
-    scale: 1.1
 }
 
 .link{
