@@ -122,6 +122,15 @@
 @media (max-width: 1200px) {
   .genre-card {
     min-width: 70%;
+    background: rgba(37, 34, 34, 0.778);
+  }
+
+  .genre-card:hover {
+    background: rgba(37, 34, 34, 0.878);
+  }
+  
+  .repertoire-root {
+    padding-inline: 0.5rem;
   }
 }
 
@@ -135,7 +144,7 @@
   }
 }
 
-@media (max-width: 768px) {
+@media (max-width: 768px) {  
   .genre-card {
     min-width: 70%;
   }
