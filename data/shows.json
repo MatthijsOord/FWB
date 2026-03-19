@@ -1,5 +1,13 @@
 [
   {
+      "date": "2026-05-07",
+      "name": "Waterhole",
+      "location": "Amsterdam, NL",
+      "details": "23:00-02:00",
+      "link": "https://waterhole.nl/gigs/",
+      "buttonName": "Meer info"
+    },
+  {
       "date": "2026-09-25",
       "name": "De Paap",
       "location": "Den Haag, NL",
