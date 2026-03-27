@@ -1,5 +1,13 @@
 [
   {
+      "date": "2026-23-05",
+      "name": "Trek Festival",
+      "location": "Utrecht, NL",
+      "details": "18:00-19:30",
+      "link": "https://www.festival-trek.nl",
+      "buttonName": "Meer info"
+  }
+  {
       "date": "2026-05-07",
       "name": "Waterhole",
       "location": "Amsterdam, NL",
