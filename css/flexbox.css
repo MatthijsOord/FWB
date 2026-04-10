@@ -75,7 +75,7 @@
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-position: center;
-    min-height: 100vh; /* Full viewport height */
+    min-height: 100vh; /* Full viewport height on desktop */
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -84,21 +84,9 @@
 }
 
 .about-page-background {
-    background-image: url("/assets/intrumenten.png");
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-position: center;
-    
-    width: 100%;
-    height: 100vh; /* Full viewport height */
-    
-    position: absolute;
-    top: 0;
-    left: 0;
-    
-    z-index: -1; /* Push it behind content */
+    display: none;
 }
+
 
 .shows-page-background {
     background-image: url("/assets/gigachtergrond.png");
@@ -366,8 +354,15 @@
         margin-top: 0px;
         margin-bottom: 10px;
     }
-    .about-page-background{
-        background-image: url("/assets/aboutachtergrondphone.png");
+    .about-section-first {
+        min-height: auto;
+        padding-top: 2rem;
+        padding-bottom: 2rem;
+        background-attachment: fixed;
+        background-position: center;
+    }
+    .about-page-background {
+        display: none;
     }
     .contact-flexbox-item{
         width: 800px;
