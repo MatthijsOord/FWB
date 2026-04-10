@@ -25,10 +25,9 @@
   font-size: 2rem;
   color: #ffffff;
   margin: 0 0 1rem 0;
-      color: white;
-    
-    font-family: 'Archivo Black', sans-serif;
-    text-transform: uppercase;
+  color: white;  
+  font-family: 'Archivo Black', sans-serif;
+  text-transform: uppercase;
 }
 
 .rep-desc {
@@ -44,12 +43,16 @@
 
 .repertoire-root {
   padding: 2rem;
-  /*background-image: linear-gradient(to bottom, #bd2837, #91202b); */
   background-image: url("/assets/FWB1.png");
   background-size: cover;
   background-repeat: no-repeat;
+  background-attachment: fixed;
   background-position: 50% 25%;
   padding-inline: 5rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-shadow: rgb(0, 0, 0) 0.05em 0.05em 0.1em;
 }
 
 .repertoire-container {
@@ -69,7 +72,7 @@
   /*box-shadow: 0 4px 15px rgba(255,51,102,0.15);
   border: 1px solid #333;*/
   background: rgba(37, 34, 34, 0.514);
-  box-shadow: 0 7px 14px 0 rgba(0, 0, 0, 0.11);
+  box-shadow: 0 10px 21px 0 rgba(0, 0, 0, 0.11);
   height: 100%;
   color: #fff;
   transition: 100ms;
@@ -96,26 +99,30 @@
 }
 
 .song-item {
-  padding: 0.5rem 0;
+  padding: 0.4rem 0;
   /*border-bottom: 1px solid #00000036;*/
-  display: flex;
-  gap: 0.5rem;
-  align-items: baseline;
+  display: block;
 }
 
 .song-title:hover {
   color: #ff3366;
 }
 
+.song-title,
+.song-artist {
+  display: inline;
+}
+
 .song-title {
   font-weight: 500;
   color: #fff;
-  text-decoration:none
+  text-decoration:none;
 }
 
 .song-artist {
   color: #c0c0c0;
   font-size: 0.9rem;
+  white-space: nowrap;
 }
 
 /* Responsive design */

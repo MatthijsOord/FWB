@@ -68,16 +68,32 @@
     cursor: default;
 }
 
+/* First section - About with sticky background */
+.about-section-first {
+    background-image: url("/assets/intrumenten.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    min-height: 100vh; /* Full viewport height */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    position: relative;
+    box-shadow: #333333 0px 0px 4px 0px;
+}
+
 .about-page-background {
     background-image: url("/assets/intrumenten.png");
     background-size: cover;
     background-repeat: no-repeat;
+    background-attachment: fixed;
     background-position: center;
     
     width: 100%;
     height: 100vh; /* Full viewport height */
     
-    position: fixed; /* This keeps it in place */
+    position: absolute;
     top: 0;
     left: 0;
     
