@@ -3,9 +3,22 @@ function isMobile() {
 }
 
 if (isMobile()) {
-    document.querySelector(".shows-page-background").style.position = "absolute"; // Override fixed
+    const showBg = document.querySelector(".shows-page-background");
+    const aboutBg = document.querySelector(".about-section-first");
+
+    if (showBg) {
+        showBg.style.position = "absolute";
+    }
+
+    if (aboutBg) {
+        aboutBg.style.backgroundAttachment = "scroll";
+        aboutBg.style.backgroundSize = "cover";
+        aboutBg.style.backgroundPosition = "center";
+    }
 
     document.addEventListener("scroll", function () {
-        document.querySelector(".shows-page-background", ".about-page-background").style.transform = `translateY(${window.scrollY}px)`;
+        if (showBg) {
+            showBg.style.transform = `translateY(${window.scrollY}px)`;
+        }
     });
 }
