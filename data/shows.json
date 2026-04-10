@@ -1,5 +1,21 @@
 [
   {
+      "date": "2026-04-16",
+      "name": "Twintig Utrecht",
+      "location": "Utrecht, NL",
+      "details": "20:00-21:30 | Akoestische set | Kleinere bezetting",
+      "link": "https://twintig-utrecht.nl/",
+      "buttonName": "Meer info"
+  },
+  {
+      "date": "2026-09-05",
+      "name": "Trek Festival",
+      "location": "Utrecht, NL",
+      "details": "18:00-19:30",
+      "link": "https://www.festival-trek.nl",
+      "buttonName": "Meer info"
+  },
+  {
       "date": "2026-05-23",
       "name": "Trek Festival",
       "location": "Utrecht, NL",
